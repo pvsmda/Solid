@@ -4,6 +4,7 @@
 
 01: Criar uma aplicação de listagem e cadastro de usuários utilizando os conceitos de SOLID aprendidos.
 
+02: Documentação das rotas utiliando Swagger.
 ## :white_check_mark: Requisitos
 
 ### Rotas da aplicação
