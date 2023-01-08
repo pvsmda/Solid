@@ -1,4 +1,4 @@
-# Chapter II - Desafio 01: Introdução ao SOLID :rocket: :purple_heart:
+#  Chapter II - Desafio 01 e 02: Introdução ao SOLID e Documentando com Swagger :rocket: :purple_heart:
 
 ## :dart: Objetivo
 
