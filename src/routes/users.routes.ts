@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Router } from "express";
 
 import { createUserController } from "../modules/users/useCases/createUser";
@@ -8,19 +9,19 @@ import { turnUserAdminController } from "../modules/users/useCases/turnUserAdmin
 const usersRoutes = Router();
 
 usersRoutes.post("/", (request, response) =>
-  createUserController.handle(request, response)
+  createUserController.handle(request, response),
 );
 
 usersRoutes.patch("/:user_id/admin", (request, response) =>
-  turnUserAdminController.handle(request, response)
+  turnUserAdminController.handle(request, response),
 );
 
 usersRoutes.get("/:user_id", (request, response) =>
-  showUserProfileController.handle(request, response)
+  showUserProfileController.handle(request, response),
 );
 
 usersRoutes.get("/", (request, response) =>
-  listAllUsersController.handle(request, response)
+  listAllUsersController.handle(request, response),
 );
 
 export { usersRoutes };

@@ -120,13 +120,13 @@ describe("[GET] /users", () => {
         ...res,
         created_at: new Date(res.created_at),
         updated_at: new Date(res.updated_at),
-      }))
+      })),
     ).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ ...user1, admin: true }),
         user2,
         user3,
-      ])
+      ]),
     );
   });
 
